@@ -18,6 +18,7 @@ public class EmployeeDTO {
     private Date entDate;
     private String entYn;
 
+
     public EmployeeDTO() {
     }
 
@@ -36,6 +37,7 @@ public class EmployeeDTO {
         this.hireDate = hireDate;
         this.entDate = entDate;
         this.entYn = entYn;
+
     }
 
     public String getEmpId() {
